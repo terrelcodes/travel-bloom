@@ -1,0 +1,43 @@
+<header>
+    <a href="/"><object class="logo" type="image/svg+xml" data="/logo.svg" alt="Travel Bloom" />Travel Bloom</a>
+    <nav>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+</header>
+
+<style is:global>
+    header {
+        padding: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        color: white;
+        font-weight: 600;
+        font-size: 1.2rem;
+
+        background-color: black;
+        & > a {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .logo {
+            width: 2rem;
+            height: 2rem;
+        }
+        nav {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+</style>
