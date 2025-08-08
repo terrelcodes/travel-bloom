@@ -1,0 +1,29 @@
+---
+---
+
+<form>
+    <label for="destination">Where do you want to go?</label>
+	<input type="search" id="destination" name="q" placeholder="Rio de Janeiro" />
+	<button type="submit">Search</button>
+    <button type="reset">Clear</button>
+</form>
+
+<style>
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    input, button {
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 0.25rem;
+    }
+    button {
+        background-color: #000;
+        color: #fff;
+    }
+    button:hover {
+        background-color: #333;
+    }
+</style>
